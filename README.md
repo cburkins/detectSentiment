@@ -1,6 +1,8 @@
 
 ### Lambda function that calls AWS Comprehend
 
+This is the code for an AWS lambda function.   The actual lambda function is in a file called "lambda_function.py".  You must also create an AWS API Gateway, which in turn calls the lambda function.
+
 
 #### Testing
 

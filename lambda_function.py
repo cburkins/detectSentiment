@@ -2,6 +2,8 @@ import json
 import boto3
 import logging
 
+
+# Standard python module for logging.  This seems to also send message to AWS CloudWatch
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
